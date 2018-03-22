@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeServiceErrors&k=1:
+  /?Action=DescribeServiceErrors:
     get:
       summary: ' Describe Service Errors '
       description: Describes AWS OpsWorks Stacks service errors

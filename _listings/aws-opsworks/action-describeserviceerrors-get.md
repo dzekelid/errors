@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describe Service Errors
   version: 1.0.0
+  description: Describes AWS OpsWorks Stacks service errors.
 schemes:
 - http
 produces:

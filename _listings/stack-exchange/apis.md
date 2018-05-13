@@ -26,21 +26,21 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get Errors
-  description: "Returns the various error codes that can be produced by the API.\n
-    \nThis method is provided for discovery, documentation, and testing purposes,
-    it is not expected many applications will consume it during normal operation.\n
-    \nFor testing purposes, look into the /errors/{id} method which simulates errors
-    given a code.\n \nThis method returns a list of errors."
+- name: Stack Exchange Get Error
+  description: "This method allows you to generate an error.\n \nThis method is only
+    intended for use when testing an application or library. Unlike other methods
+    in the API, its contract is not frozen, and new error codes may be added at any
+    time.\n \nThis method results in an error, which will be expressed with a 400
+    HTTP status code and setting the error* properties on the wrapper object."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
   humanURL: https://stackexchange.com/
   baseURL: https://api.stackexchange.com//2.2
   tags: Errors
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errors-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errors-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errors-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errors-id-get-postman.md
 x-common:
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication

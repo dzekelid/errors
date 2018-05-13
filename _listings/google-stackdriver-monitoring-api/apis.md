@@ -22,6 +22,10 @@ x-common:
   url: https://cloud.google.com/monitoring/api/v3/
 - type: x-website
   url: https://cloud.google.com/monitoring/docs/
+- type: x-developer
+  url: https://cloud.google.com/monitoring/api/v3/
+- type: x-website
+  url: https://cloud.google.com/monitoring/docs/
 include: []
 maintainers:
 - FN: Kin Lane

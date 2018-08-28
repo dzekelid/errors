@@ -1,0 +1,176 @@
+---
+name: Google Search Console
+x-slug: google-search-console
+description: Search Console is a free service that enables you to monitor your sites
+  performance in Google Search, to ensure that Google can crawl your site or app correctly,
+  and to test the validity and performance of a given page. Search Console provides
+  programmatic access to the service through the APIs documented here.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+x-kinRank: "9"
+x-alexaRank: "0"
+tags: Errors
+created: "2018-08-27"
+modified: "2018-08-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/apis.md
+specificationVersion: "0.14"
+apis:
+- name: Search Console - Get Crawl Error Count
+  x-api-slug: sitessiteurlurlcrawlerrorscountsquery-get
+  description: Retrieves a time series of the number of URL crawl errors per error
+    category and platform.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorscountsquery-get-openapi.md
+- name: Search Console - Get Crawl Error Samples
+  x-api-slug: sitessiteurlurlcrawlerrorssamples-get
+  description: Lists a site's sample URLs for the specified crawl error category and
+    platform.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorssamples-get-openapi.md
+- name: Search Console - Delete Crawl Error Samples
+  x-api-slug: sitessiteurlurlcrawlerrorssamplesurl-delete
+  description: Marks the provided site's sample URL as fixed, and removes it from
+    the samples list.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorssamplesurl-delete-openapi.md
+- name: Search Console - Get Crawl Error Sample
+  x-api-slug: sitessiteurlurlcrawlerrorssamplesurl-get
+  description: Retrieves details about crawl errors for a site's sample URL.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorssamplesurl-get-openapi.md
+- name: Search Console - Get Crawl Error Count
+  x-api-slug: sitessiteurlurlcrawlerrorscountsquery-get
+  description: Retrieves a time series of the number of URL crawl errors per error
+    category and platform.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorscountsquery-get-openapi.md
+- name: Search Console - Get Crawl Error Samples
+  x-api-slug: sitessiteurlurlcrawlerrorssamples-get
+  description: Lists a site's sample URLs for the specified crawl error category and
+    platform.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorssamples-get-openapi.md
+- name: Search Console - Delete Crawl Error Samples
+  x-api-slug: sitessiteurlurlcrawlerrorssamplesurl-delete
+  description: Marks the provided site's sample URL as fixed, and removes it from
+    the samples list.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorssamplesurl-delete-openapi.md
+- name: Search Console - Get Crawl Error Sample
+  x-api-slug: sitessiteurlurlcrawlerrorssamplesurl-get
+  description: Retrieves details about crawl errors for a site's sample URL.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorssamplesurl-get-openapi.md
+- name: Search Console - Get Crawl Error Sample
+  x-api-slug: sitessiteurlurlcrawlerrorssamplesurl-get
+  description: Retrieves details about crawl errors for a site's sample URL.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorssamplesurl-get-openapi.md
+- name: Search Console - Delete Crawl Error Samples
+  x-api-slug: sitessiteurlurlcrawlerrorssamplesurl-delete
+  description: Marks the provided site's sample URL as fixed, and removes it from
+    the samples list.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorssamplesurl-delete-openapi.md
+- name: Search Console - Get Crawl Error Samples
+  x-api-slug: sitessiteurlurlcrawlerrorssamples-get
+  description: Lists a site's sample URLs for the specified crawl error category and
+    platform.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorssamples-get-openapi.md
+- name: Search Console - Get Crawl Error Count
+  x-api-slug: sitessiteurlurlcrawlerrorscountsquery-get
+  description: Retrieves a time series of the number of URL crawl errors per error
+    category and platform.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/subdomains-google-webmaster-tools-13960.gif
+  humanURL: https://developers.google.com/webmaster-tools/
+  baseURL: ://www.googleapis.com//webmasters/v3
+  tags: Google APIs, Search, Links, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/google-search-console/sitessiteurlurlcrawlerrorscountsquery-get-openapi.md
+x-common:
+- type: x-api-gallery
+  url: http://google.safe.browsing.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.search.console.stack.network
+- type: x-blog
+  url: https://support.google.com/webmasters/go/blog
+- type: x-blog-rss
+  url: https://webmasters.googleblog.com/feeds/posts/default?alt=rss
+- type: x-forum
+  url: https://productforums.google.com/forum/#!forum/webmasters
+- type: x-website
+  url: https://developers.google.com/webmaster-tools/
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
+---

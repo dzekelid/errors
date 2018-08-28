@@ -1,47 +1,60 @@
 ---
 name: Stack Exchange
-description: Stack Exchange is a network of question and answer websites on diverse
-  topics in many different fields, each site covering a specific topic, where questions,
-  answers, and users are subject to a reputation award process. The sites are modeled
-  after Stack Overflow, a forum for computer programming questions that was the original
-  site in this network. The reputation system is designed to allow the sites to be
-  self-moderating.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
+x-slug: stack-exchange
+description: After someone asks a question, members of the community propose answers.
+  Others vote on those answers. Very quickly, the answers with the most votes rise
+  to the top. You dont have to read through a lot of discussion to find the best answer.    Like
+  to...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Streamrank
-- Stack
-- Question Answer
-- Plug in
-- My API Stack
-- Media
-- Imports
-- Content
-- Code
-- Citations
-- Answers
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "126"
+tags: Errors
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Stack Exchange Get Error
+- name: Stack Exchange - Get Errors
+  x-api-slug: errors-get
+  description: "Returns the various error codes that can be produced by the API.\n
+    \nThis method is provided for discovery, documentation, and testing purposes,
+    it is not expected many applications will consume it during normal operation.\n
+    \nFor testing purposes, look into the /errors/{id} method which simulates errors
+    given a code.\n \nThis method returns a list of errors."
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
+  humanURL: http://stackexchange.com
+  baseURL: https://api.stackexchange.com//2.2
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errors-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errors-get-openapi.md
+- name: Stack Exchange - Get Error
+  x-api-slug: errorsid-get
   description: "This method allows you to generate an error.\n \nThis method is only
     intended for use when testing an application or library. Unlike other methods
     in the API, its contract is not frozen, and new error codes may be added at any
     time.\n \nThis method results in an error, which will be expressed with a 400
     HTTP status code and setting the error* properties on the wrapper object."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/253_logo.png
-  humanURL: https://stackexchange.com/
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg
+  humanURL: http://stackexchange.com
   baseURL: https://api.stackexchange.com//2.2
-  tags: Errors
+  tags: Citations, Answers, Code, Content, My API Stack, Imports, Stack, Media, Forums,
+    Streams, Plugins, Questions, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errors-id-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errors-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errorsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/errors/master/_listings/stack-exchange/errorsid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://square.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://stack.exchange.stack.network
 - type: x-authentication
   url: https://api.stackexchange.com/docs/authentication
 - type: x-base
@@ -52,8 +65,14 @@ x-common:
   url: http://blog.stackoverflow.com/feed/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/stack-exchange
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/stack-exchange
 - type: x-developer
   url: http://api.stackexchange.com/
+- type: x-email
+  url: legal@stackexchange.com
+- type: x-email
+  url: team@stackexchange.com
 - type: x-email
   url: team+api@stackexchange.com
 - type: x-error-codes
@@ -62,6 +81,8 @@ x-common:
   url: https://github.com/StackExchange
 - type: x-javascript-sdk
   url: https://api.stackexchange.com/docs/js-lib
+- type: x-linkedin
+  url: https://www.linkedin.com/company/stack-exchange
 - type: x-privacy
   url: https://stackexchange.com/legal/privacy-policy
 - type: x-rate-limits
@@ -74,6 +95,8 @@ x-common:
   url: http://stackexchange.com/legal/api-terms-of-use
 - type: x-twitter
   url: https://twitter.com/StackExchange
+- type: x-website
+  url: http://stackexchange.com
 - type: x-website
   url: https://stackexchange.com/
 include: []
